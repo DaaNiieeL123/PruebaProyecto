@@ -1,0 +1,3 @@
+archivo base para detectar cambios
+modificacion_prueba_2026-04-20T21:01:05.216960
+mod@2026-04-21T21:55:45.342236

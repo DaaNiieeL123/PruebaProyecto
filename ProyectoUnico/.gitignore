@@ -1,0 +1,27 @@
+# Runtime/build artifacts
+*.pid
+*.log
+*.out
+*.tmp
+
+# Frontend artifacts
+Dashboard/node_modules/
+Dashboard/dist/
+Dashboard/.env.local
+Dashboard/.env.*
+!Dashboard/.env.example
+
+# Python/cache artifacts
+__pycache__/
+*.pyc
+
+# Local evidence extras (not part of deliverable)
+assets/evidencias/
+
+# Editor/system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

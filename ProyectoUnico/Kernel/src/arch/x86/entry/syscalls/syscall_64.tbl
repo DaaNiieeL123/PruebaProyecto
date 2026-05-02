@@ -1,0 +1,14 @@
+#
+# arch/x86/entry/syscalls/syscall_64.tbl - Proyecto Unico (lineas a agregar)
+#
+# Reutilizadas de practicas previas:
+548     common  get_process_info        sys_get_process_info
+549     common  get_system_monitor      sys_get_system_monitor
+#
+# Nuevas syscalls del Proyecto Unico:
+550     common  file_analize            sys_file_analize
+551     common  scan_processes          sys_scan_processes
+552     common  quarantine_file         sys_quarantine_file
+553     common  restore_file            sys_restore_file
+554     common  get_quarantine_list     sys_get_quarantine_list
+556     common  simulate_panic          sys_simulate_panic
